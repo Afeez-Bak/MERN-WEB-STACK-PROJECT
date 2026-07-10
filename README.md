@@ -31,6 +31,7 @@ This is a documentation that explain the implementation, setup, configuration of
 ssh -i <sshkey.pem> Ubuntu@ipaddress
 ```
 ![Ec2 ssh Login](<Images/1 ec2 ssh login.png>)
+
 2. Server update and upgrade
 ```
 sudo apt update
@@ -82,6 +83,7 @@ npm install express
 ![express installation](<Images/9- install express.png>)
 
 2.  create new index.js file in the Todo directory
+
 ![index.js](Images/10-index.js.png)
 ![index.js code block](<Images/11- index.js code.png>)
 
@@ -102,7 +104,7 @@ http://51.20.8.17:5000
 ![express](<Images/14- express webpage.png>)
 
 6.  Create Routes folder tht will define various endpoints that the Todo app will depend on
-   ![routes folder](<Images/15- create route directory.png>)
+![routes folder](<Images/15- create route directory.png>)
 
 7.  create new Api.js file, using the vim text editor, input the code for Api.js
 ```
@@ -129,7 +131,7 @@ touch Todo.js
 ![models](<Images/19- create models & todo.js.png>)
 
 3.  Open the newly created Todo.js file and input the code.
-   ![Todo.js code](<Images/20- todo.js code file.png>)
+![Todo.js code](<Images/20- todo.js code file.png>)
 
 4.  change to routes directory and update the Api.js code
 ```
@@ -145,11 +147,11 @@ vim api.js
 ![create database](<Images/23 mongodb cluster.png>)
 
 2.  Add 0.0..0.0/0 to the the IP Access List to be able to serve data from anywhere
-   ![.](<Images/24 access mongodb.png>)
-   ![.](<Images/24b access mongodb.png>)
+![.](<Images/24 access mongodb.png>)
+![.](<Images/24b access mongodb.png>)
 
 3.  Create MongoDB database and collection inside mLab
-  ![Database](<Images/25 todo db creation.png>) 
+![Database](<Images/25 todo db creation.png>) 
 
 4.  Create .env file in the Todo directory and input the code using vim.
 ```
@@ -242,9 +244,9 @@ touch Input.js ListTodo.js Todo.js
 ![src comp](<Images/46-create src components.png>)
 
 2.  Input the Input.js code
- ![input.js](Images/47-input.js.png)
+![input.js](Images/47-input.js.png)
 
- 3. Go to the clients folder and install Axios
+3. Go to the clients folder and install Axios
 ```
 cd ..
 cd ..
@@ -274,15 +276,17 @@ npm run dev
 ```
 ![run server](<Images/55- server running successful.png>)
 
-10. Confirm if the server runs using the web browser
+10.  Confirm if the server runs using the web browser
 ![Todo web](<Images/56- Todo web running.png>)
 
-11. Add more task
+11.  Add more task
+
 ![Todo](<Images/57- Todos.png>)
-12. Verify on the mLab if the database stores correctly
+
+12.   Verify on the mLab if the database stores correctly
+
 ![mLab](<Images/58-verify on mlab.png>)
 
 # Conclusion
-## Conclusion
 
 Building this MERN application provided practical experience in developing, deploying, and managing a full-stack web application on AWS. It serves as a solid foundation for future projects involving cloud computing, DevOps, and scalable web application development.
