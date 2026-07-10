@@ -246,43 +246,47 @@ touch Input.js ListTodo.js Todo.js
 ```
 ![src comp](<Images/46-create src components.png>)
 
-2.  Input the Input.js code
-![input.js](Images/47-input.js.png)
 
-3.  Go to the clients folder and install Axios
+2.  Input the Input.js code
+
+![Input.js](Images/47-input.js.png)
+
+
+Go to the clients folder and install Axios
 ```
 cd ..
 cd ..
 npm install axios
 ```
 ![Axios](<Images/48-install axios.png>)
-   
-4.  Input the ListTodo.js code
+
+3.  Input the ListTodo.js code
 ![ListTodo.js](Images/50-ListTodo.js.png)
 
-5.  Input the Todo.js code
+4.  Input the Todo.js code
 ![Todo.js](<Images/51- Todo.js.png>)
 
-6.  Make an adjustment to the App.js file in the the src folder   
+5.  Make an adjustment to the App.js file in the the src folder  
+ 
 ![App.js](<Images/52-change directory for app.js.png>)
 ![App.js](Images/52-app.js.png)
 
-7.  Input the App.css code
+6.  Input the App.css code
 ![App.css](<Images/53-app.css code.png>)
 
-8.  Input the Index.css code
+1.  Input the Index.css code
 ![Index.css](Images/54-index.css.png)
 
-9.  Go back to the root directory, which is the Todo directory and start the server
+1.  Go back to the root directory, which is the Todo directory and start the server
 ```
 npm run dev
 ```
 ![run server](<Images/55- server running successful.png>)
 
-10. Confirm if the server runs using the web browser
+1.  Confirm if the server runs using the web browser
 ![Todo web](<Images/56- Todo web running.png>)
 
-11. Add more task
+1.  Add more task
 
 ![Todo](<Images/57- Todos.png>)
 
