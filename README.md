@@ -223,11 +223,14 @@ vi package.json
 npm run dev
 ```
 ![server app](<Images/41- app running error.png>)
+
 The server was unable to run due to an error in the Package.json file. 
 6.  Edit package.json file
 ![package.json](<Images/43-correct package.json file.png>)
+
 After making correction/editing the package.json file, we can noe rerun the server app.
 ![app running](<Images/44- app running.png>)
+
 App running successfully on port 3000
 
 7.  open port 3000 on the EC2 by adding it to the security group inbound rules
@@ -246,7 +249,7 @@ touch Input.js ListTodo.js Todo.js
 2.  Input the Input.js code
 ![input.js](Images/47-input.js.png)
 
-3. Go to the clients folder and install Axios
+3.  Go to the clients folder and install Axios
 ```
 cd ..
 cd ..
@@ -264,7 +267,7 @@ npm install axios
 ![App.js](<Images/52-change directory for app.js.png>)
 ![App.js](Images/52-app.js.png)
 
-7.  input the App.css code
+7.  Input the App.css code
 ![App.css](<Images/53-app.css code.png>)
 
 8.  Input the Index.css code
@@ -276,14 +279,14 @@ npm run dev
 ```
 ![run server](<Images/55- server running successful.png>)
 
-10.  Confirm if the server runs using the web browser
+10. Confirm if the server runs using the web browser
 ![Todo web](<Images/56- Todo web running.png>)
 
-11.  Add more task
+11. Add more task
 
 ![Todo](<Images/57- Todos.png>)
 
-12.   Verify on the mLab if the database stores correctly
+12. Verify on the mLab if the database stores correctly
 
 ![mLab](<Images/58-verify on mlab.png>)
 
