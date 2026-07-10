@@ -283,3 +283,6 @@ npm run dev
 ![mLab](<Images/58-verify on mlab.png>)
 
 # Conclusion
+## Conclusion
+
+Building this MERN application provided practical experience in developing, deploying, and managing a full-stack web application on AWS. It serves as a solid foundation for future projects involving cloud computing, DevOps, and scalable web application development.
