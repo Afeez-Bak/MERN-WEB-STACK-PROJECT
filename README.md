@@ -162,7 +162,9 @@ vi .env
 ![.env code](<Images/27 .env code block.png>)
 
 5.  Update the Index.js file to reflect the use of .env
-![index.js](<Images/28 update index.js code.png>)
+
+
+![index.js](<Images/28 update index.js code.png>)  
 
 6.  Start server
 ```
@@ -201,8 +203,10 @@ npx create-react-app client
 ![react frontend](<Images/35- create frontend directory.png>)
 
 2.  installing the react app dependencies
+
+
 ![react concurrently](<Images/36-install concurrently.png>)
-![nodemon](<Images/37-install nodemon.png>)
+![nodemon](<Images/37-install nodemon.png>)  
 
 3.  Open the Package.json file and input the code
 ```
@@ -224,11 +228,14 @@ npm run dev
 ```
 ![server app](<Images/41- app running error.png>)
 
-The server was unable to run due to an error in the Package.json file. 
-6.  Edit package.json file
-![package.json](<Images/43-correct package.json file.png>)
+The server was unable to run due to an error in the Package.json file.   
 
-After making correction/editing the package.json file, we can noe rerun the server app.
+6.  Edit package.json file
+
+
+![package.json](<Images/43-correct package.json file.png>)  
+
+After making correction/editing the package.json file, we can now rerun the server app.
 ![app running](<Images/44- app running.png>)
 
 App running successfully on port 3000
@@ -247,12 +254,12 @@ touch Input.js ListTodo.js Todo.js
 ![src comp](<Images/46-create src components.png>)
 
 
-2.  Input the Input.js code
+2.  Input the Input.js code  
 
 ![Input.js](Images/47-input.js.png)
 
 
-Go to the clients folder and install Axios
+3. Go to the clients folder and install Axios
 ```
 cd ..
 cd ..
@@ -260,33 +267,37 @@ npm install axios
 ```
 ![Axios](<Images/48-install axios.png>)
 
-3.  Input the ListTodo.js code
+4.  Input the ListTodo.js code  
 ![ListTodo.js](Images/50-ListTodo.js.png)
 
-4.  Input the Todo.js code
+5.  Input the Todo.js code  
 ![Todo.js](<Images/51- Todo.js.png>)
 
-5.  Make an adjustment to the App.js file in the the src folder  
+6.  Make an adjustment to the App.js file in the the src folder  
  
 ![App.js](<Images/52-change directory for app.js.png>)
 ![App.js](Images/52-app.js.png)
 
-6.  Input the App.css code
-![App.css](<Images/53-app.css code.png>)
+7.  Input the App.css code
 
-1.  Input the Index.css code
-![Index.css](Images/54-index.css.png)
 
-1.  Go back to the root directory, which is the Todo directory and start the server
+![App.css](<Images/53-app.css code.png>)  
+
+8.  Input the Index.css code
+
+
+![Index.css](Images/54-index.css.png)  
+
+9.  Go back to the root directory, which is the Todo directory and start the server
 ```
 npm run dev
 ```
 ![run server](<Images/55- server running successful.png>)
 
-1.  Confirm if the server runs using the web browser
+10.  Confirm if the server runs using the web browser
 ![Todo web](<Images/56- Todo web running.png>)
 
-1.  Add more task
+11.  Add more task
 
 ![Todo](<Images/57- Todos.png>)
 
